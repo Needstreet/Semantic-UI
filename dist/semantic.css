@@ -5125,10 +5125,40 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Theme Overrides
 *******************************/
 
+<<<<<<< HEAD
 .ui.primary.buttons .button,
 .ui.primary.button {
   background-color: none;
   color: #03a9f4 !important;
+=======
+.ui.button {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.ui.primary.buttons .button,
+.ui.primary.button {
+  background-color: transparent;
+  color: #03a9f4;
+}
+
+.ui.primary.buttons .button:hover,
+.ui.primary.button:hover {
+  background-color: transparent;
+  color: #03a9f4;
+}
+
+.ui.primary.buttons .button:focus,
+.ui.primary.button:focus {
+  background-color: transparent;
+  color: #03a9f4;
+}
+
+.ui.primary.buttons .button:active,
+.ui.primary.button:active {
+  background-color: transparent;
+  color: #03a9f4;
+>>>>>>> d31f3d905301b7c8cc44b0164df4dc84e915fa94
 }
 
 /*******************************
@@ -14714,6 +14744,7 @@ img.ui.bordered.image {
 
 .ui.input > input {
   border: none;
+<<<<<<< HEAD
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0em;
   padding: .37857143em .2em;
@@ -14732,6 +14763,9 @@ img.ui.bordered.image {
 .ui.input.error > input {
   background-color: #FFFFFF;
   border-color: #E0B4B4;
+=======
+  border-bottom: 1px solid green;
+>>>>>>> d31f3d905301b7c8cc44b0164df4dc84e915fa94
 }
 
 /*******************************
