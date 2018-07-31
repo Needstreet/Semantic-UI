@@ -18,59 +18,59 @@
 */
 
 /* Global */
-@site       : 'default';
-@reset      : 'default';
+@site       : 'cc_react';
+@reset      : 'cc_react';
 
 /* Elements */
-@button     : 'default';
-@container  : 'default';
-@divider    : 'default';
-@flag       : 'default';
-@header     : 'default';
-@icon       : 'default';
-@image      : 'default';
-@input      : 'default';
-@label      : 'default';
-@list       : 'default';
-@loader     : 'default';
-@rail       : 'default';
-@reveal     : 'default';
-@segment    : 'default';
-@step       : 'default';
+@button     : 'cc_react';
+@container  : 'cc_react';
+@divider    : 'cc_react';
+@flag       : 'cc_react';
+@header     : 'cc_react';
+@icon       : 'cc_react';
+@image      : 'cc_react';
+@input      : 'cc_react';
+@label      : 'cc_react';
+@list       : 'cc_react';
+@loader     : 'cc_react';
+@rail       : 'cc_react';
+@reveal     : 'cc_react';
+@segment    : 'cc_react';
+@step       : 'cc_react';
 
 /* Collections */
-@breadcrumb : 'default';
-@form       : 'default';
-@grid       : 'default';
-@menu       : 'default';
-@message    : 'default';
-@table      : 'default';
+@breadcrumb : 'cc_react';
+@form       : 'cc_react';
+@grid       : 'cc_react';
+@menu       : 'cc_react';
+@message    : 'cc_react';
+@table      : 'cc_react';
 
 /* Modules */
-@accordion  : 'default';
-@checkbox   : 'default';
-@dimmer     : 'default';
-@dropdown   : 'default';
-@embed      : 'default';
-@modal      : 'default';
-@nag        : 'default';
-@popup      : 'default';
-@progress   : 'default';
-@rating     : 'default';
-@search     : 'default';
-@shape      : 'default';
-@sidebar    : 'default';
-@sticky     : 'default';
-@tab        : 'default';
-@transition : 'default';
+@accordion  : 'cc_react';
+@checkbox   : 'cc_react';
+@dimmer     : 'cc_react';
+@dropdown   : 'cc_react';
+@embed      : 'cc_react';
+@modal      : 'cc_react';
+@nag        : 'cc_react';
+@popup      : 'cc_react';
+@progress   : 'cc_react';
+@rating     : 'cc_react';
+@search     : 'cc_react';
+@shape      : 'cc_react';
+@sidebar    : 'cc_react';
+@sticky     : 'cc_react';
+@tab        : 'cc_react';
+@transition : 'cc_react';
 
 /* Views */
-@ad         : 'default';
-@card       : 'default';
-@comment    : 'default';
-@feed       : 'default';
-@item       : 'default';
-@statistic  : 'default';
+@ad         : 'cc_react';
+@card       : 'cc_react';
+@comment    : 'cc_react';
+@feed       : 'cc_react';
+@item       : 'cc_react';
+@statistic  : 'cc_react';
 
 /*******************************
             Folders

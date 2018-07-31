@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Noto Sans:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.3.3 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -569,7 +569,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -585,7 +585,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   font-weight: bold;
@@ -755,6 +755,14 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
         Global Overrides
 *******************************/
+
+.themecolor {
+  color: #FF686B !important;
+}
+
+.themecolorteal {
+  color: #0bd1b5 !important;
+}
 
 /*******************************
          Site Overrides
@@ -6844,7 +6852,7 @@ i.flag.zimbabwe:before {
   border: none;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.28571429em;
   text-transform: none;
@@ -7647,6 +7655,10 @@ a.ui.inverted.grey.header:hover {
 /*******************************
          Theme Overrides
 *******************************/
+
+.cc-ui-container .ui.header.themecolor {
+  color: #FF686B;
+}
 
 /*******************************
          Site Overrides

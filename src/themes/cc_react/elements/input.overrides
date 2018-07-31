@@ -1,3 +1,7 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.input > input {
+    border: none;
+    border-bottom: 1px solid green;
+}
