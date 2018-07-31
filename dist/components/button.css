@@ -22,7 +22,7 @@
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
   text-transform: none;
@@ -3830,6 +3830,30 @@
          Theme Overrides
 *******************************/
 
+.ui.button {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.ui.primary.buttons .button,
+.ui.primary.button {
+  background-color: transparent;
+  color: #03a9f4 ;
+}
+.ui.primary.buttons .button:hover,
+.ui.primary.button:hover {
+  background-color: transparent;
+  color: #03a9f4;
+}
+.ui.primary.buttons .button:focus,
+.ui.primary.button:focus {
+  background-color: transparent;
+  color: #03a9f4;
+}
+.ui.primary.buttons .button:active,
+.ui.primary.button:active {
+  background-color: transparent;
+  color: #03a9f4;
+}
 
 
 /*******************************
