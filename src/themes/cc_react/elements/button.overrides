@@ -1,3 +1,8 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.primary.buttons .button,
+.ui.primary.button {
+  background-color: none;
+  color: #03a9f4 !important;
+}
