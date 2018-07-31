@@ -1,4 +1,6 @@
 /*******************************
          Theme Overrides
 *******************************/
-
+.cc-ui-container .ui.header.themecolor {
+  color: @ccLightRed;
+}
