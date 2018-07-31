@@ -43,11 +43,11 @@
 @headerBackground: @offWhite;
 @headerAlign: inherit;
 @headerVerticalAlign: inherit;
-@headerColor: @textColor;
-@headerVerticalPadding: @relativeSmall;
+@headerColor: @tableHeaderColor;
+@headerVerticalPadding: @relativeMini;
 @headerHorizontalPadding: @cellHorizontalPadding;
 @headerFontStyle: none;
-@headerFontWeight: @bold;
+@headerFontWeight: @normal;
 @headerTextTransform: none;
 @headerBoxShadow: none;
 
@@ -93,7 +93,7 @@
 @definitionColumnBackground: @subtleTransparentBlack;
 @definitionColumnFontWeight: @bold;
 @definitionColumnColor: @selectedTextColor;
-@definitionColumnFontSize: @relativeMedium;
+@definitionColumnFontSize: @relativeSmall;
 @definitionColumnTextTransform: '';
 @definitionColumnBoxShadow: '';
 @definitionColumnTextAlign: '';
