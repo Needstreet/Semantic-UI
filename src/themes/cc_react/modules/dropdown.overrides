@@ -72,5 +72,6 @@
 }
 .ui.selection.dropdown .menu {
   border:none;
-  border-radius: 0rem
+  border-radius: 0rem;
+  background:none;
 }
