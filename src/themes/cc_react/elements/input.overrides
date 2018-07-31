@@ -3,5 +3,19 @@
 *******************************/
 .ui.input > input {
     border: none;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+    border-radius: 0em;
+    padding: .37857143em .2em;
 }
+.ui.input > input:active,
+.ui.input.down input {
+  border-color: #0bd1b5;
+}
+.ui.input.focus > input,
+.ui.input > input:focus  {
+    border-color: #0bd1b5;
+}
+.ui.input.error > input {
+    background-color: @focusBackground;
+    border-color: @errorBorder;
+  }
