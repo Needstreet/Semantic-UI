@@ -5125,6 +5125,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Theme Overrides
 *******************************/
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 .ui.primary.buttons .button,
 .ui.primary.button {
@@ -5138,27 +5139,42 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
+=======
+.cc-ui-container .flag-button {
+>>>>>>> Stashed changes
   background-color: transparent;
   color: #03a9f4;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.ui.primary.buttons .button:hover,
-.ui.primary.button:hover {
+.cc-ui-container .buttons .flag-button:hover,
+.cc-ui-container .flag-button:hover {
   background-color: transparent;
   color: #03a9f4;
+  outline: none;
 }
 
-.ui.primary.buttons .button:focus,
-.ui.primary.button:focus {
+.cc-ui-container .buttons .flag-button:focus,
+.cc-ui-container .flag-button:focus {
   background-color: transparent;
   color: #03a9f4;
+  outline: none;
 }
 
-.ui.primary.buttons .button:active,
-.ui.primary.button:active {
+.cc-ui-container .buttons .flag-button:active,
+.cc-ui-container .flag-button:active {
   background-color: transparent;
   color: #03a9f4;
+<<<<<<< Updated upstream
 >>>>>>> d31f3d905301b7c8cc44b0164df4dc84e915fa94
+=======
+  outline: none;
+>>>>>>> Stashed changes
 }
 
 /*******************************

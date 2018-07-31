@@ -3830,10 +3830,40 @@
          Theme Overrides
 *******************************/
 
+<<<<<<< Updated upstream
 .ui.primary.buttons .button,
 .ui.primary.button {
   background-color: none;
   color: #03a9f4 !important;
+=======
+.cc-ui-container .flag-button {
+  background-color: transparent ;
+  color: #03a9f4 ;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.cc-ui-container .buttons .flag-button:hover,
+.cc-ui-container .flag-button:hover {
+  background-color: transparent;
+  color: #03a9f4;
+  outline: none;
+}
+.cc-ui-container .buttons .flag-button:focus,
+.cc-ui-container .flag-button:focus {
+  background-color: transparent;
+  color: #03a9f4;
+  outline: none;
+}
+.cc-ui-container .buttons .flag-button:active,
+.cc-ui-container .flag-button:active {
+  background-color: transparent;
+  color: #03a9f4;
+  outline: none;
+>>>>>>> Stashed changes
 }
 
 
