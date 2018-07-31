@@ -60,3 +60,17 @@
   content: "\f0da";
 }
 */
+.ui.selection.dropdown {
+  padding: .78571429em .2em .78571429em .2em;
+  border: none;
+  border-bottom: 1px solid rgba(34,36,38,.15);
+  border-radius: 0rem;
+}
+.ui.dropdown .menu{
+  border:none;
+  border-radius: 0rem
+}
+.ui.selection.dropdown .menu {
+  border:none;
+  border-radius: 0rem
+}
