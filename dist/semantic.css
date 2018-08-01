@@ -8,7 +8,6 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Noto Sans:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.3.3 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -5125,26 +5124,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Theme Overrides
 *******************************/
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-.ui.primary.buttons .button,
-.ui.primary.button {
-  background-color: none;
-  color: #03a9f4 !important;
-=======
-=======
->>>>>>> Stashed changes
-.ui.button {
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-.ui.primary.buttons .button,
-.ui.primary.button {
-=======
 .cc-ui-container .flag-button {
->>>>>>> Stashed changes
   background-color: transparent;
   color: #03a9f4;
   font-weight: normal;
@@ -5173,14 +5153,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .cc-ui-container .flag-button:active {
   background-color: transparent;
   color: #03a9f4;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> d31f3d905301b7c8cc44b0164df4dc84e915fa94
-=======
   outline: none;
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 /*******************************
@@ -14768,7 +14741,7 @@ img.ui.bordered.image {
   border: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0em;
-  padding: .37857143em .2em;
+  padding: .67857143em .2em;
   line-height: 1.31428571em;
 }
 
@@ -21078,7 +21051,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  padding: .37857143em .2em;
+  padding: .67857143em .2em;
   line-height: 1.31428571em;
   border: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
@@ -26369,13 +26342,13 @@ Floated Menu / Item
 
 .ui.table thead th {
   cursor: auto;
-  background: #F9FAFB;
+  background: #f5f5f5;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
-  padding: 0.92857143em 0.78571429em;
+  color: #000000;
+  padding: 0.78571429em 0.78571429em;
   vertical-align: inherit;
   font-style: none;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
   border-left: none;
@@ -26627,7 +26600,7 @@ Floated Menu / Item
   -webkit-box-shadow: '';
   box-shadow: '';
   text-align: '';
-  font-size: 1em;
+  font-size: 0.92857143em;
   padding-left: '';
   padding-right: '';
 }
@@ -27600,6 +27573,10 @@ Floated Menu / Item
 
 .ui.large.table {
   font-size: 1.1em;
+}
+
+.cc-ui-container .ui.table {
+  border-radius: 0;
 }
 
 /*******************************
@@ -33603,6 +33580,15 @@ select.ui.dropdown {
 .ui.selection.dropdown .menu {
   border: none;
   border-radius: 0rem;
+}
+
+.ui.selection.dropdown:focus {
+  border-color: #0bd1b5;
+}
+
+.ui.selection.dropdown:focus .menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 /*******************************

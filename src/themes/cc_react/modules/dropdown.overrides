@@ -68,10 +68,17 @@
 }
 .ui.dropdown .menu{
   border:none;
-  border-radius: 0rem
+  border-radius: 0rem;
+  border-color: #0bd1b5;
 }
 .ui.selection.dropdown .menu {
   border:none;
   border-radius: 0rem;
-  background:none;
+  border-color: #0bd1b5;
+}
+.ui.selection.dropdown:focus {
+  border-color: #0bd1b5;
+}
+.ui.selection.dropdown:focus .menu {
+  box-shadow: none;
 }

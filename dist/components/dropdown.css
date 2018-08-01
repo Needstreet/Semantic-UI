@@ -1513,6 +1513,13 @@ select.ui.dropdown {
   border: none;
   border-radius: 0rem;
 }
+.ui.selection.dropdown:focus {
+  border-color: #0bd1b5;
+}
+.ui.selection.dropdown:focus .menu {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 
 
 /*******************************

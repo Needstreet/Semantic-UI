@@ -55,13 +55,13 @@
 }
 .ui.table thead th {
   cursor: auto;
-  background: #F9FAFB;
+  background: #f5f5f5;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
-  padding: 0.92857143em 0.78571429em;
+  color: #000000;
+  padding: 0.78571429em 0.78571429em;
   vertical-align: inherit;
   font-style: none;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
   border-left: none;
@@ -280,7 +280,7 @@
   -webkit-box-shadow: '';
           box-shadow: '';
   text-align: '';
-  font-size: 1em;
+  font-size: 0.92857143em;
   padding-left: '';
   padding-right: '';
 }
@@ -1129,6 +1129,9 @@
 /* Large */
 .ui.large.table {
   font-size: 1.1em;
+}
+.cc-ui-container .ui.table {
+  border-radius: 0;
 }
 
 
