@@ -22,7 +22,9 @@
              Page
 *******************************/
 
-.loadFonts();
+.loadFonts() when (@importGoogleFonts) {
+  @import (css) url('@{googleProtocol}fonts.googleapis.com/css?family=@{googleFontRequest}');
+}
 
 html,
 body {
