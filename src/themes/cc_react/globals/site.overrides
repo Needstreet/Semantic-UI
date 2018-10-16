@@ -10,6 +10,12 @@
 .themecolorteal{
   color: @ccLightTeal !important;
 }
+.themebackgroundteal {
+  background: @ccLightTeal !important;
+}
+.themebackgroundcolorteal {
+  background-color: @ccLightTeal !important;
+}
 .linkcolor{
   color: @linkColor;
 }

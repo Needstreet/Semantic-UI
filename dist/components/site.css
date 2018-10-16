@@ -204,6 +204,12 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .themecolorteal {
   color: #0bd1b5 !important;
 }
+.themebackgroundteal {
+  background: #0bd1b5 !important;
+}
+.themebackgroundcolorteal {
+  background-color: #0bd1b5 !important;
+}
 .linkcolor {
   color: #03a9f4;
 }
