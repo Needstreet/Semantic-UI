@@ -66,6 +66,12 @@
   border-bottom: 1px solid rgba(34,36,38,.15);
   border-radius: 0rem;
 }
+.ui.search.dropdown{
+  padding: .67857143em .2em;
+  line-height: 1.31428571em;
+  border: none;
+  border-bottom: 1px solid rgba(34,36,38,.15);
+}
 .ui.dropdown .menu{
   border:none;
   border-radius: 0rem;

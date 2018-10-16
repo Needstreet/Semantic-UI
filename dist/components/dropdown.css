@@ -395,6 +395,8 @@ select.ui.dropdown {
   opacity: 0.8;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
+  color: #FF686B;
+  font-size: 1.1em;
 }
 
 /* Compact */
@@ -1504,6 +1506,12 @@ select.ui.dropdown {
   border: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0rem;
+}
+.ui.search.dropdown {
+  padding: .67857143em .2em;
+  line-height: 1.31428571em;
+  border: none;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.dropdown .menu {
   border: none;
